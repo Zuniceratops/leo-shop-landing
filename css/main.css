@@ -1,16 +1,16 @@
+body {
+  height: 100vh;
+}
+
 .navbar {
   background: #4cb1ca;
   color: white;
   font-size: 13px;
   padding: 3px;
+  height: 47px;
 }
 
-.container {
-  max-width: 1020px;
-  margin: 0 auto;
-}
-
-.select {
+.display {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,6 +20,56 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 260px;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.navbar-left {
+  position: relative;
+}
+
+.select {
+  position: relative;
+}
+
+.select-option {
+  position: relative;
+  margin-left: 3px;
+}
+
+.select-two {
+  margin-left: 10px;
+}
+
+.fas {
+  margin-left: 5px;
+}
+
+.border {
+  border-right: 1px solid white;
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.menu {
+  background: #f19a5c;
+}
+
+.logo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 36px;
+  color: #656565;
+}
+
+.a {
+  font-size: 14px;
+  color: #c1c1c1;
+  text-decoration: none;
+  padding: 0 15px;
 }
 /*# sourceMappingURL=main.css.map */
