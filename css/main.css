@@ -25,6 +25,7 @@ body {
 .container {
   max-width: 1020px;
   margin: 0 auto;
+  height: 100%;
 }
 
 .navbar-left {
@@ -33,15 +34,18 @@ body {
 
 .select {
   position: relative;
+  color: #bef2ff;
 }
 
 .select-option {
   position: relative;
   margin-left: 3px;
+  color: white;
 }
 
 .select-two {
   margin-left: 10px;
+  color: #bef2ff;
 }
 
 .fas {
@@ -55,8 +59,13 @@ body {
   padding: 0 15px;
 }
 
+.border:last-child {
+  border: none;
+}
+
 .menu {
-  background: #f19a5c;
+  background: white;
+  height: 107px;
 }
 
 .logo {
@@ -66,10 +75,50 @@ body {
   color: #656565;
 }
 
+.menu-element {
+  width: 315px;
+}
+
 .a {
   font-size: 14px;
   color: #c1c1c1;
   text-decoration: none;
-  padding: 0 15px;
+  padding-right: 20px;
+}
+
+.search {
+  width: 130px;
+  margin-left: 120px;
+}
+
+.search input {
+  width: 100%;
+  position: absolute;
+  width: 170px;
+}
+
+input {
+  display: inline-block;
+  background: transparent;
+  border: 1px solid #c6c6c6;
+}
+
+.search-fas {
+  margin-left: 150px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #7db122;
+  margin-right: 5px;
+  position: relative;
+}
+
+.tags {
+  position: absolute;
+  color: white;
+  margin: 10px;
 }
 /*# sourceMappingURL=main.css.map */
