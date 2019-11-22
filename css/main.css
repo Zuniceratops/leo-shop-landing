@@ -81,20 +81,24 @@ body {
 
 .a {
   font-size: 14px;
-  color: #c1c1c1;
+  color: #656565;
   text-decoration: none;
   padding-right: 20px;
 }
 
+.menu-right {
+  width: 330px;
+}
+
 .search {
   width: 130px;
-  margin-left: 120px;
+  margin-right: 30px;
 }
 
 .search input {
   width: 100%;
   position: absolute;
-  width: 170px;
+  width: 150px;
 }
 
 input {
@@ -104,7 +108,11 @@ input {
 }
 
 .search-fas {
-  margin-left: 150px;
+  margin-left: 130px;
+}
+
+.block-img {
+  margin-right: 50px;
 }
 
 .circle {
@@ -120,5 +128,12 @@ input {
   position: absolute;
   color: white;
   margin: 10px;
+}
+
+.cart {
+  color: #656565;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: -40px;
 }
 /*# sourceMappingURL=main.css.map */
