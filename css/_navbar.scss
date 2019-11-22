@@ -31,9 +31,9 @@ body {
     margin-left: 3px;
     color: $color-white;
 }
-.navbar-right {
-    // margin-right: 10px;
-}
+// .navbar-right {
+//     // margin-right: 10px;
+// }
 .select-two {
     margin-left: 10px;
     color: #bef2ff;
@@ -66,6 +66,7 @@ body {
 }
 .menu-element {
     width: 315px;
+    font-weight: bold;
 }
 .a {
     font-size: 14px;
@@ -107,11 +108,16 @@ input {
 .tags {
     position: absolute;
     color: $color-white;
-    margin: 10px;
+    margin: 11px;
 }
 .cart {
     color: $color-grey;
     font-size: $size-14;
     font-weight: bold;
     margin-left: -40px;
+}
+.bold {
+    font-weight: bold;
+    font-size: 28px;
+    font-weight: bold;
 }

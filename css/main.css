@@ -77,6 +77,7 @@ body {
 
 .menu-element {
   width: 315px;
+  font-weight: bold;
 }
 
 .a {
@@ -127,7 +128,7 @@ input {
 .tags {
   position: absolute;
   color: white;
-  margin: 10px;
+  margin: 11px;
 }
 
 .cart {
@@ -135,5 +136,84 @@ input {
   font-size: 14px;
   font-weight: bold;
   margin-left: -40px;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.bg {
+  background-image: url(/img/main-banner.jpg);
+  height: 470px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: 100%;
+}
+
+.text {
+  font-size: 30px;
+  color: white;
+  height: 90px;
+  margin-bottom: -20px;
+  margin: 350px;
+  margin-top: 420px;
+}
+
+.small {
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  background-color: #4d4d46;
+  position: relative;
+  opacity: 0.7;
+  color: white;
+  margin-bottom: 5px;
+  padding: -3px;
+}
+
+.bold {
+  height: 40px;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: #4d4d46;
+  position: relative;
+  opacity: 0.7;
+  color: white;
+  padding: 5px;
+}
+
+.circles {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.one-circle {
+  margin-left: 230px;
+}
+
+.two-circle {
+  margin-left: 1432px;
+}
+
+.arrow-left {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  color: #ebebeb;
+  font-size: 50px;
+  margin: 15px;
+}
+
+.arrow-right {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  color: #ebebeb;
+  font-size: 50px;
+  margin: 20px;
 }
 /*# sourceMappingURL=main.css.map */
