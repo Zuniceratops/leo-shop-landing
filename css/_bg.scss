@@ -1,7 +1,7 @@
 
 .bg {
     background-image: url(/img/main-banner.jpg);
-    height: 470px;
+    width: 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
     background-size: 100%; 
@@ -16,7 +16,7 @@
 }
 .small {
     height: 40px;
-    margin-top: 10px;
+    margin-top:-200px;
     margin-bottom: -20px;
     background-color: #4d4d46;
     position: relative;
@@ -35,20 +35,26 @@
     color: $color-white;
     padding: 5px;
 }
+.arrow-backgraund {
+    margin-top: 250px;
+}
 .circles {
+    position: absolute;
+    margin-top: -80px;
+}
+.one-circle {
+    margin-left: 230px;
     width: 70px;
     height: 70px;
     border-radius: 50%;
     background: $color-white;
-    position: absolute;
-    margin-top: 20px;
-}
-.one-circle {
-    margin-left: 230px;
-    
 }
 .two-circle {
-    margin-left: 1432px;
+    margin-left: 1430px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: $color-white;
 }
 .arrow-left {
     transform: rotate(90deg);

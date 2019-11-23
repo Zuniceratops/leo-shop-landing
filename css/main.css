@@ -146,7 +146,7 @@ input {
 
 .bg {
   background-image: url(/img/main-banner.jpg);
-  height: 470px;
+  width: 100%;
   background-repeat: no-repeat;
   margin: 0 auto;
   background-size: 100%;
@@ -163,7 +163,7 @@ input {
 
 .small {
   height: 40px;
-  margin-top: 10px;
+  margin-top: -200px;
   margin-bottom: -20px;
   background-color: #4d4d46;
   position: relative;
@@ -184,21 +184,29 @@ input {
   padding: 5px;
 }
 
+.arrow-backgraund {
+  margin-top: 250px;
+}
+
 .circles {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background: white;
   position: absolute;
-  margin-top: 20px;
+  margin-top: -80px;
 }
 
 .one-circle {
   margin-left: 230px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: white;
 }
 
 .two-circle {
-  margin-left: 1432px;
+  margin-left: 1430px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: white;
 }
 
 .arrow-left {
@@ -215,5 +223,61 @@ input {
   color: #ebebeb;
   font-size: 50px;
   margin: 20px;
+}
+
+.list {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.products {
+  width: 235px;
+  border: 1px solid #eeeeee;
+  -webkit-box-shadow: 10px 5px 5px #fafafa;
+          box-shadow: 10px 5px 5px #fafafa;
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+p {
+  display: block;
+}
+
+img {
+  height: 230px;
+  width: 220px;
+  margin-top: 30px;
+}
+
+.text-prise {
+  padding: 2px;
+}
+
+.text-glasses {
+  font-size: 14px;
+  color: #69666a;
+  padding-top: 5px;
+}
+
+.prise-glasses {
+  font-size: 18px;
+  color: #7db122;
+  margin-top: 5px;
+}
+
+.circl-buy {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #7db122;
 }
 /*# sourceMappingURL=main.css.map */
