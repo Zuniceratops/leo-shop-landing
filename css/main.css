@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .display {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,6 +18,14 @@
   max-width: 1020px;
   margin: 0 auto;
   height: 100%;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.font-weight-light {
+  font-weight: 300;
 }
 
 .navbar {
@@ -140,67 +152,69 @@ input {
   font-weight: bold;
 }
 
-.bg {
+.hero {
+  margin: 0 auto;
+  padding-top: 190px;
+  padding-bottom: 190px;
   background-image: url(/img/main-banner.jpg);
   background-repeat: no-repeat;
-  margin: 0 auto;
   background-size: 100%;
 }
 
-.text {
+.hero-container {
+  position: relative;
+}
+
+.hero-title {
+  margin-left: 48px;
   font-size: 30px;
   color: white;
-  height: 90px;
 }
 
-.small {
-  background-color: #4d4d46;
-  position: relative;
-  opacity: 0.7;
-  color: white;
+.hero-text {
+  padding-left: 15px;
+  padding-top: 7px;
+  padding-right: 4px;
+  padding-bottom: 7px;
+  background-color: rgba(96, 93, 85, 0.7);
 }
 
-.bold {
-  height: 40px;
-  font-weight: bold;
-  font-size: 28px;
-  background-color: #4d4d46;
-  position: relative;
-  opacity: 0.7;
-  color: white;
-  padding: 5px;
+.hero-text.one {
+  max-width: 286px;
+  margin-bottom: 3px;
 }
 
-.one-circle {
-  margin-left: 230px;
+.hero-text.two {
+  max-width: 333px;
+}
+
+.hero-arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   background: white;
-}
-
-.two-circle {
-  margin-left: 1430px;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background: white;
-}
-
-.arrow-left {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
   color: #ebebeb;
   font-size: 50px;
-  margin: 15px;
+  position: absolute;
+  top: calc(50% - 35px);
+  cursor: pointer;
 }
 
-.arrow-right {
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  color: #ebebeb;
-  font-size: 50px;
-  margin: 20px;
+.hero-arrow.left {
+  left: -70px;
+}
+
+.hero-arrow.right {
+  right: -70px;
 }
 
 .list-products {
