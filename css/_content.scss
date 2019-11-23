@@ -1,40 +1,47 @@
-.list{
+.list-products{
     flex-wrap: wrap;
     flex-direction: row;
 }.products {
+    // width: 235px;
+    // border: 1px solid #eeeeee;
+    // box-shadow: 10px 5px 5px #fafafa;
+    position: absolute;
+    // justify-content: center;
+}
+h3 {
+    
+}
+.card-product {
     width: 235px;
     border: 1px solid #eeeeee;
     box-shadow: 10px 5px 5px #fafafa;
-    position: absolute;
-    justify-content: center;
-    display: flex;
-}
-.product {
     // position: absolute;
+    justify-content: center;
+    position: relative;
+    
 }
-p {
-    display: block;
-}
-img {
-    height: 230px;
+.card-img {
     width: 220px;
-    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // margin-top: 30px;
 }
 .text-prise {
     padding: 2px;
+    flex-direction: column;
 }
 .text-glasses {
     font-size: $size-14;
     color: #69666a;
     padding-top: 5px;
-    
 }
 .prise-glasses {
     font-size: 18px;
     color: #7db122;
     margin-top: 5px;
 }
-.circl-buy {
+.circle-buy {
     height: 50px;
     width: 50px;
     border-radius: 50%;

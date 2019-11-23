@@ -1,23 +1,10 @@
-body {
-    height: 100vh;
-}
+
 .navbar {
     background: $bg-color;
     color: $color-white;
     font-size: 13px;
     padding: 3px;
     height: 47px;
-}
-.display {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.container {
-   max-width: 1020px;
-   margin: 0 auto;
-   height: 100%;
- 
 }
 .navbar-left {
     position: relative;
@@ -41,7 +28,7 @@ body {
 .fas {
     margin-left: 5px;
 }
-.border {
+.border-line {
     border-right: 1px solid white;
     color: $color-white;
     text-decoration: none;
