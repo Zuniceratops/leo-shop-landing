@@ -1,0 +1,118 @@
+.card {
+    width: 235px;
+    border: 1px solid #eeeeee;
+    box-shadow: 10px 5px 5px #fafafa;
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.card-img {
+    padding: 8px 8px 0 8px;
+}
+.card-body {
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-content {
+   
+}
+
+.card-description {
+
+}
+
+.card-price {
+    font-size: 18px;
+    color: #7db122;
+    margin-top: 5px;
+}
+
+.card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    background: #7db122;
+    color: white;
+    font-size: 26px;
+
+    .fas {
+        position: relative;
+        right: 3px;
+    }
+}
+.label {
+    width: 50px;
+    padding: 10px;
+    color: $color-white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 15px;
+    position: absolute;
+}
+.label-sale {
+    background: #7db122;
+    left: -1px;
+    top: 17px;
+}
+.label-new {
+    background: $bg-color;
+    right: -1px;
+    top: 17px;
+}
+.label-sale::before {
+    content: '';
+    width: 0;
+    height: 0;
+    right: calc(100% - 1px);
+    position: absolute;
+    border: 18px solid transparent;
+    border-bottom-color: #7db122;
+    border-right-color: #7db122;
+    transform: translateY(-11px);
+}
+
+.label-sale::after {
+    content: '';
+    width: 0;
+    height: 0;
+    left: calc(100% - 1px);
+    position: absolute;
+    border: 18px solid transparent;
+    border-bottom-color: #7db122;
+    border-left-color: #7db122;
+    transform: translateY(-11px);
+}
+
+.label-sale {
+    transform: rotate(-45deg);
+}
+.label-new {
+    transform: rotate(45deg);
+}
+.label-new::before {
+    content: '';
+    width: 0;
+    height: 0;
+    transform: translateY(-11px);
+    border: 18px solid transparent;
+    border-bottom-color: #4cb1ca;
+    border-right-color: #4cb1ca;
+    right: calc(100% - 1px);
+    position: absolute;
+}
+.label-new::after {
+    content: '';
+    width: 0;
+    height: 0;
+    transform: translateY(-11px);
+    border: 18px solid transparent;
+    border-bottom-color: #4cb1ca;
+    border-left-color: #4cb1ca;
+    left: calc(100% - 1px);
+    position: absolute;
+}

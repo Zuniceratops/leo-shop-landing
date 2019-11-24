@@ -50,8 +50,14 @@
 
     &.left {
         left: -70px;
+        
+        .fas {
+            position: relative;
+            right: 5px;
+        }
     }
     &.right {
         right: -70px;
     }
+
 }

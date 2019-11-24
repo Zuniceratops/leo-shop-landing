@@ -2,6 +2,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h3 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
 .display {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -26,6 +34,10 @@ body {
 
 .font-weight-light {
   font-weight: 300;
+}
+
+.font-weight-normal {
+  font-weight: 400;
 }
 
 .navbar {
@@ -213,36 +225,78 @@ input {
   left: -70px;
 }
 
+.hero-arrow.left .fas {
+  position: relative;
+  right: 5px;
+}
+
 .hero-arrow.right {
   right: -70px;
 }
 
-.list-products {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 48px;
 }
 
 .products {
-  position: absolute;
+  width: 100%;
+  padding-right: 28px;
 }
 
-.card-product {
+.products-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.products-block h3 {
+  margin-bottom: 18px;
+}
+
+.card {
   width: 235px;
   border: 1px solid #eeeeee;
   -webkit-box-shadow: 10px 5px 5px #fafafa;
           box-shadow: 10px 5px 5px #fafafa;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   position: relative;
+  margin-bottom: 26px;
 }
 
 .card-img {
-  width: 220px;
+  padding: 8px 8px 0 8px;
+}
+
+.card-body {
+  padding: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-price {
+  font-size: 18px;
+  color: #7db122;
+  margin-top: 5px;
+}
+
+.card-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -252,32 +306,105 @@ input {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.text-prise {
-  padding: 2px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.text-glasses {
-  font-size: 14px;
-  color: #69666a;
-  padding-top: 5px;
-}
-
-.prise-glasses {
-  font-size: 18px;
-  color: #7db122;
-  margin-top: 5px;
-}
-
-.circle-buy {
-  height: 50px;
-  width: 50px;
+  height: 47px;
+  width: 47px;
   border-radius: 50%;
   background: #7db122;
+  color: white;
+  font-size: 26px;
+}
+
+.card-icon .fas {
+  position: relative;
+  right: 3px;
+}
+
+.label {
+  width: 50px;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  line-height: 15px;
+  position: absolute;
+}
+
+.label-sale {
+  background: #7db122;
+  left: -1px;
+  top: 17px;
+}
+
+.label-new {
+  background: #4cb1ca;
+  right: -1px;
+  top: 17px;
+}
+
+.label-sale::before {
+  content: '';
+  width: 0;
+  height: 0;
+  right: calc(100% - 1px);
+  position: absolute;
+  border: 18px solid transparent;
+  border-bottom-color: #7db122;
+  border-right-color: #7db122;
+  -webkit-transform: translateY(-11px);
+          transform: translateY(-11px);
+}
+
+.label-sale::after {
+  content: '';
+  width: 0;
+  height: 0;
+  left: calc(100% - 1px);
+  position: absolute;
+  border: 18px solid transparent;
+  border-bottom-color: #7db122;
+  border-left-color: #7db122;
+  -webkit-transform: translateY(-11px);
+          transform: translateY(-11px);
+}
+
+.label-sale {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.label-new {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.label-new::before {
+  content: '';
+  width: 0;
+  height: 0;
+  -webkit-transform: translateY(-11px);
+          transform: translateY(-11px);
+  border: 18px solid transparent;
+  border-bottom-color: #4cb1ca;
+  border-right-color: #4cb1ca;
+  right: calc(100% - 1px);
+  position: absolute;
+}
+
+.label-new::after {
+  content: '';
+  width: 0;
+  height: 0;
+  -webkit-transform: translateY(-11px);
+          transform: translateY(-11px);
+  border: 18px solid transparent;
+  border-bottom-color: #4cb1ca;
+  border-left-color: #4cb1ca;
+  left: calc(100% - 1px);
+  position: absolute;
+}
+
+.sidebar {
+  width: 236px;
+  background: red;
 }
 /*# sourceMappingURL=main.css.map */
