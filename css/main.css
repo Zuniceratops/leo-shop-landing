@@ -405,6 +405,88 @@ input {
 
 .sidebar {
   width: 236px;
-  background: red;
+  background: white;
+  font-size: 24px;
+  position: relative;
+  border: 1px solid #eeeeee;
+}
+
+.content-sidebar-text {
+  padding: 27px 45px 27px 45px;
+}
+
+.sidebar-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar-img {
+  padding: 10px;
+}
+
+button {
+  background: #4cb1ca;
+  color: white;
+  font-size: 14px;
+  border: 1px solid #4cb1ca;
+  padding: 8px 23px 8px 23px;
+  cursor: pointer;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 86px;
+  left: 25%;
+}
+
+.show-sidebar {
+  border: 1px solid #eeeeee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+}
+
+.show-sidebar-one {
+  margin-right: 10px;
+  background: #4cb1ca;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.show-sidebar-two {
+  margin-right: 10px;
+  background: #7db122;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.show-sidebar-three {
+  background: #7db122;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.sidebar-window-block {
+  margin-top: 30px;
 }
 /*# sourceMappingURL=main.css.map */
