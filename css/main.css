@@ -546,4 +546,116 @@ button {
   top: 70px;
   left: 30%;
 }
+
+.block-content {
+  max-width: 260px;
+  width: 100%;
+}
+
+.first-footer {
+  background: #4cb1ca;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.left-block {
+  margin-right: 130px;
+}
+
+.delivery {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 20px;
+  color: #4cb1ca;
+}
+
+h1 {
+  font-size: 21px;
+  color: white;
+}
+
+.right-block {
+  margin: 20px 188px 20px -350px;
+}
+
+.call {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 20px;
+  color: #4cb1ca;
+}
+
+.two-footer {
+  background: #39a0b9;
+}
+
+.twitter-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 20px;
+}
+
+.twitter-bird {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: white;
+  color: #4cb1ca;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 14px;
+}
+
+.twitt-text {
+  font-size: 13px;
+  color: white;
+}
+
+.twitt-two {
+  margin-top: 30px;
+}
 /*# sourceMappingURL=main.css.map */
