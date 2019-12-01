@@ -1,11 +1,4 @@
-.footer-conteiner {
 
-}
-.block-content {
-    max-width: 260px;
-    width: 100%
-    
-}
 .first-footer {
     background: $bg-color;
     display: flex;
@@ -32,7 +25,8 @@ h1 {
     color: white;
 }
 .right-block {
-    margin: 20px 188px 20px -350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .call {
     width: 55px;
@@ -47,22 +41,14 @@ h1 {
 }
 
 
-
+.block-content {
+    max-width: 260px;
+    margin-top: 20px;
+}
 .two-footer {
     background: #39a0b9;
 }
-.two-block {
-    // width: 260px;
-}
-// p {
-//     font-size: 13px;
-//     color: white;
-//     margin: 0 auto;
-//     display: flex;
-//     flex-direction: column;
-// }
 .twitter-icon {
-    // margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -71,6 +57,7 @@ h1 {
 .twitter-bird{
     width: 45px;
     height: 45px;
+    min-width: 45px;
     border-radius: 50%;
     background: white;
     color: $bg-color;
@@ -83,9 +70,50 @@ h1 {
     font-size: 13px;
     color: white;
 }
-
-
-
 .twitt-two {
     margin-top: 30px;
+}
+
+.text-footer {
+    font-size: 13px;
+    color: white;
+    padding-bottom: 4px;
+}
+.fa-chevron-right {
+    margin-right: 10px;
+}
+.line-four {
+    padding-bottom: 15px;
+    border-bottom: 1px solid $bg-color;
+}
+.social-network {
+    width: 35px;
+    height: 35px;
+    min-width: 35px;
+    border-radius: 50%;
+    background: white;
+    color: $bg-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.three-footer {
+    background: #0b4b5a;
+}
+.text-three-footer {
+    color: $bg-color;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.border-line-footer {
+    border-right: 1px solid $bg-color;
+    text-decoration: none;
+    padding: 0 15px;
+}
+.border-line-footer:last-child {
+    border: none;
 }

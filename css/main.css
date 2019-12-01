@@ -547,11 +547,6 @@ button {
   left: 30%;
 }
 
-.block-content {
-  max-width: 260px;
-  width: 100%;
-}
-
 .first-footer {
   background: #4cb1ca;
   display: -webkit-box;
@@ -594,7 +589,8 @@ h1 {
 }
 
 .right-block {
-  margin: 20px 188px 20px -350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .call {
@@ -613,6 +609,11 @@ h1 {
           justify-content: center;
   margin-right: 20px;
   color: #4cb1ca;
+}
+
+.block-content {
+  max-width: 260px;
+  margin-top: 20px;
 }
 
 .two-footer {
@@ -635,6 +636,7 @@ h1 {
 .twitter-bird {
   width: 45px;
   height: 45px;
+  min-width: 45px;
   border-radius: 50%;
   background: white;
   color: #4cb1ca;
@@ -657,5 +659,61 @@ h1 {
 
 .twitt-two {
   margin-top: 30px;
+}
+
+.text-footer {
+  font-size: 13px;
+  color: white;
+  padding-bottom: 4px;
+}
+
+.fa-chevron-right {
+  margin-right: 10px;
+}
+
+.line-four {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #4cb1ca;
+}
+
+.social-network {
+  width: 35px;
+  height: 35px;
+  min-width: 35px;
+  border-radius: 50%;
+  background: white;
+  color: #4cb1ca;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.three-footer {
+  background: #0b4b5a;
+}
+
+.text-three-footer {
+  color: #4cb1ca;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.border-line-footer {
+  border-right: 1px solid #4cb1ca;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.border-line-footer:last-child {
+  border: none;
 }
 /*# sourceMappingURL=main.css.map */
